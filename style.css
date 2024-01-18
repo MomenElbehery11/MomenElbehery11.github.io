@@ -1,0 +1,130 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position:sticky;
+    top: 0;
+    left:0;
+}   
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #navbar li{
+      list-style: none;
+      padding: 0 20px;
+      position: relative;
+  }
+  #navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+  }
+  #navbar li a:hover
+  {
+    color: wheat;
+  }
+  #navbar li a:hover::after{
+    width: 30%;
+    height: 2px;
+    position: absolute;
+  }
+.UserPageBody{
+background-color: rgb(81, 163, 140);
+}
+.ItemsPageBody{
+background-color: rgb(183, 147, 147);
+}
+.ItemsBillBody{
+    background-color: brown;
+}
+.UserTitle{
+    text-align: center;
+    font-size:90px;
+}
+.UserNameInArabic{
+color: rgb(255, 255, 255);
+text-align: center;
+transition: 0.5s;
+}
+.UserNameInEnglish{
+color: rgb(255, 255, 255);
+text-align: center;
+transition: 0.5s;
+}
+.UserNameInArabic:hover{
+color: rgb(221, 31, 31);
+}
+.UserNameInEnglish:hover{
+color: rgb(221, 31, 31);
+transition: 0.5s;
+}
+.itemNo1{
+    text-align: center;
+    border-radius: 1px solid white;
+}
+.itemNo1 img{
+    border-radius: 20px;
+    height: 220px;
+    width: 220px;
+    cursor: pointer;
+}
+.itemNo2{
+    text-align: center;
+    border-radius: 1px solid white;
+}
+.itemNo2 img{
+    border-radius: 20px;
+    height: 220px;
+    width: 220px;
+    cursor: pointer;
+}
+.itemNo3{
+    text-align: center;
+    border-radius: 1px solid white;
+}
+.itemNo3 img{
+    border-radius: 20px;
+    height: 220px;
+    width: 220px;
+    cursor: pointer;
+}
+.itemNo4{
+    text-align: center;
+    border-radius: 1px solid white;
+}
+.itemNo4 img{
+    border-radius: 20px;
+    height: 220px;
+    width: 220px;
+    cursor: pointer;
+}
+.date{
+    padding-top: 50px ;
+    text-align: center;
+    font-size: 40px;
+}
+.UserBill{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.ItemsCheckOut{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.ItemsNums{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}

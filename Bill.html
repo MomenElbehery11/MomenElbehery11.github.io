@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="ItemsBillBody">
+    <section id="header">
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">العميل</a></li>
+                <li><a href="ItemsPage.html"  class="active">الاصناف</a></li>
+                <li><a href="Bill.html">الفاتورة</a></li>
+            </ul>  
+        </div> 
+    </section>
+    <section>
+        <div class="date">
+        <label >:التاريخ</label>
+        <br>
+        <input type="date">
+    </div>
+    <div class="UserBill">
+        <label >اختر العميل</label>
+        <br>
+            <select>
+            <option >مؤمن</option>
+            <option >حسن</option>
+            <option >حازم</option>
+            <option >سيد</option>
+            </select>
+    </div>
+    <div class="ItemsCheckOut" id="Mobility">
+        <label >اختر الصنف</label>
+        <br>
+         <select id="price">
+            <option disabled hidden selected>Select</option>   
+            <option value="iphone" >ايفون 12 برو ماكس</option>
+            <option value="sony">سوني اكسبيريا 5 اي في</option>
+            <option value="samsung" >سامسنج فليب</option>
+            <option value="huawei">هواوي موبيل</option>
+         </select>
+         <div class="ItemsNums">
+            <label >ادخل الكمية</label>
+            <br>
+            <input type="number" id="numbersOfSelectedItem"/>
+            </div>
+            <p id='totalSum'></p>
+
+            <p id='singleIphone'></p>
+            <p id='singleSony'></p>
+            <p id='singleSamsung'></p>
+            <p id='singleHuawei'></p>
+
+            <p id='rIphone'></p>
+            <p id='rSony'></p>
+            <p id='rSamsung'></p>
+            <p id='rHuawei'></p>
+            <p id='all'></p>
+
+    </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
