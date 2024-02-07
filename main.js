@@ -19,7 +19,7 @@ result.innerText=selection.options[selection.selectedIndex].value;
 if(result.innerText=="iphone")
 {
     resultIphone.innerText='Iphone Total Price $';
-    a.innerText=+a.innerText+ + +parseInt(1199*numbers.value);
+    a.innerText=+a.innerText + +parseInt(1199*numbers.value);
     resultIphone.innerText+=1199*numbers.value;
     sI.innerText=' Single Iphone Price $'+1199;
 }
@@ -34,14 +34,14 @@ else if(result.innerText=="samsung")
 {
     resultSamsung.innerText=' samsung total price $';
     resultSamsung.innerText+=999*numbers.value;
-    a.innerText=+a.innerText+ + +999*numbers.value;
+    a.innerText=+a.innerText + +999*numbers.value;
     sSamsung.innerText=' Single Samsung Price $'+999;
 }
 else if(result.innerText=="huawei")
 {
     resultHuawei.innerText='huawei total price $';
     resultHuawei.innerText+=850*numbers.value;
-    a.innerText=a.innerText+ + +850*numbers.value;
+    a.innerText=+a.innerText + +850*numbers.value;
     sH.innerText=' Single Huawei Price $'+850;
 }
 });
