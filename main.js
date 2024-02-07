@@ -19,7 +19,7 @@ result.innerText=selection.options[selection.selectedIndex].value;
 if(result.innerText=="iphone")
 {
     resultIphone.innerText='Iphone Total Price $';
-    a.innerText=+a.innerText + +parseInt(1199*numbers.value);
+    a.innerText=+a.innerText+ + +parseInt(1199*numbers.value);
     resultIphone.innerText+=1199*numbers.value;
     sI.innerText=' Single Iphone Price $'+1199;
 }
